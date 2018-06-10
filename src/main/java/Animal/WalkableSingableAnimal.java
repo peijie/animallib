@@ -1,6 +1,6 @@
 package Animal;
 
-public class WalkableSingableAnimal extends Animal implements Singable {
+public class WalkableSingableAnimal extends WalkableAnimal implements Singable {
 
     /**
      * this method implements Singable interface
