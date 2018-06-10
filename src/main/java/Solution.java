@@ -1,4 +1,5 @@
-import Animal.Bird;
+import Animal.*;
+
 
 public class Solution {
     public static void main(String[] args) {
@@ -6,5 +7,19 @@ public class Solution {
         bird.walk();
         bird.fly();
         bird.sing();
+
+
+        //Parrot near Dog
+        Parrot parrotDog = new Parrot(new Dog());
+        parrotDog.sing();
+
+        //Parrot near Cat
+        Parrot parrotCat = new Parrot(new Cat());
+        parrotCat.sing();
+
+
+
     }
+
+
 }
